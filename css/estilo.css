@@ -100,7 +100,6 @@ img{
 .banner-text p{
     font-size: 1.87em;
     color: #fff;
-    padding-bottom:;
 }
 .banner-text a{
     font-size: 1.87em;
@@ -172,6 +171,40 @@ img{
 }
 .content-about img{
     max-width: 31.875em;
+}
+.linha{
+    border: solid 1px #fff;
+    height: 65%;
+}
+.games-aovivo, .games-embreve{
+    display: flex;
+    color: white;
+    align-items: center;
+    font-size: 1.875em;
+    justify-content: ;
+}
+.games-aovivo h2{
+    /* margin-right: 1em; */
+}
+.partida{
+    width: 9.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1em;
+}
+.time1, .time2{
+    display: flex;
+    align-items: center;
+}
+.partida img{
+    width: 1.8em;
+}
+.time1 img{
+    margin-left: 0.5em;
+}
+.time2 img{
+    margin-right: 0.5em;
 }
 /* Até 1199px */
 @media screen and (max-width: 74.93em){
