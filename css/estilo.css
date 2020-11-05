@@ -65,7 +65,70 @@ img{
 #menu-bars{
     display: none;
 }
-
+.banner{
+    position: relative;
+}
+.banner-container{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 255, 255, 0.329); */
+    position: absolute;
+    top: 0;
+}
+.banner-content{
+    width: 80%;
+    height: 100%;
+    /* background-color: rgba(255, 235, 205, 0.315); */
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.banner-text{
+    width: 50%;
+    height: 100%;
+    /* background-color: coral; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner-text h1{
+    font-size: 5.62em;
+    color: #fff;
+    text-transform: uppercase;
+}
+.banner-text p{
+    font-size: 1.87em;
+    color: #fff;
+    padding-bottom:;
+}
+.banner-text a{
+    font-size: 1.87em;
+    background-color: var(--red);
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0.2em 1.2em;
+    border-radius: 0.75em;
+    margin-top: 2em;
+}
+.games{
+    width: 100%;
+    height: 7.5em;
+    /* background-color: yellow; */
+}
+.games ul{
+    width: 100%;
+    /* background-color: var(--red); */
+    list-style-type: none;
+}
+.games img{
+    width: 10.62em;
+}
+.games ul a:hover img{
+    transition: 0.5s;
+    transform: scale(1.5);
+}
 /* Até 1199px */
 @media screen and (max-width: 74.93em){
 
