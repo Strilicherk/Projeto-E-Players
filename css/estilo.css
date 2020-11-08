@@ -64,8 +64,6 @@ img{
     padding: 0.9em 0.66em;
 }
 .menu a:hover{
-    background-color: var(--red);
-    text-shadow: 0 0 20px #fff;
     text-decoration: underline;
 }
 #menu-bars{
@@ -188,9 +186,6 @@ img{
     align-items: center;
     font-size: 1.6em;
     justify-content: space-around;
-}
-.games-aovivo h2{
-    /* margin-right: 1em; */
 }
 .partida{
     width: 9.5em;
@@ -356,11 +351,8 @@ img{
         transition: 0.5s;
         transform: scale(1.2)
     }
-    .content{
-        /* background-color: aqua; */
-    }
-    .games img{
-        
+    .ul-responsive1 img{
+        width: 9em;
     }
     .content-about img{
         display: none;
@@ -368,23 +360,24 @@ img{
     .content-about{
         display: flex;
         justify-content: center;
-        align-items: center;
-    }
-    .banner-text h1{
-        padding-top: ;
+        margin-top: 3em;
+        /* background-color: aqua; */
     }
     .games-aovivo, .games-embreve{
         font-size: 1.3em;
     }
     .content-news{
         display:flex;
-        flex-wrap: ;
     }
     .cardnews{
         height: 25em;
     }
-    .next-games{
-        
+    .logo-rodape{
+        width: 14em;
+        padding-right: 2em;
+    }
+    .links-footer{
+        width: 37%;
     }
 }
 /* Até 991px */
@@ -398,16 +391,99 @@ img{
     .ul-responsive1 img{
         width: 6em;
     }
-   
-
+    .text-about{
+        width: 43.2em;
+        margin-top: 5em;
+    }
+    .games-aovivo, .games-embreve{
+        font-size: 1em;
+    }
+    .cardnews{
+        width: 14em;
+    }
+    .next-games{
+        margin-bottom: 47em;
+    }
+    .next-games h2{
+        font-size: 2em;
+    }
+    .next-games-match{
+        font-size: 0.8em;
+    }
+    .logo-rodape{
+        display: none;
+    }
+    .links-footer{
+        width: 50%;
+    }
 /* Até 767px */
 @media screen and (max-width: 47.93em){
-    #menu-bars{
-        display: block;
+    .banner-text p{
+        font-size: 1.8em;
     }
-    
+    .ul-responsive1 img{
+        width: 5.5em;
+    }
+    .text-about{
+        width: 35em;
+        margin-top: 0.5em;
+    }
+    .games-aovivo, .games-embreve{
+        font-size: 0.8em;
+    }
+    .content-news{
+        width: 32em;
+    }
+    .cardnews{
+        width: 10em;
+        height: 27em;
+    }
+    .next-games{
+        display: none;
+    }
+    .links-footer{
+        width: 30%;
+    }
+    .links{
+        font-size: 0.9em;
+        padding-left: 4em;
+        padding-top: 4em;
+    }
+    .sociais{
+        width: 50%;
+    }
+    .siga-nos{
+        font-size: 1em;
+    }
 }
 /* Até 576px */
 @media screen and (max-width: 36em){
-
+    .menu a{
+        font-size: 0.8em;
+    }
+    .banner-text h1{
+        font-size: 3.5em;
+    }
+    .ul-responsive1 img{
+        width: 4.5em;
+    }
+    .text-about{
+        width: 30em;
+    }
+    .games-aovivo, .games-embreve{
+        font-size: 0.7em;
+    }
+    .content-news{
+        width: 28em
+    }
+    .cardnews{
+        width: 13em;
+        height: 24em;
+    }
+    .links-footer{
+        width: 35%;
+    }
+    .links{
+        font-size: 0.8em;
+    }
 }
